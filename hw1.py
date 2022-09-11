@@ -11,7 +11,7 @@ all = combinations(52,4)
 krest = combinations(13,4)
 ver = krest/all
 print (ver)
-tuz = combinations(4,4)
+tuz = 4*51*50*49//np.math.factorial(4)
 ver2 = tuz/all
 print (ver2)
 
